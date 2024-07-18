@@ -1,0 +1,24 @@
+{
+  "name": "Incubyte Assessment",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "@faker-js/faker": "^8.4.1",
+    "@testing-library/cypress": "^10.0.2",
+    "cypress": "^13.13.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/**/*"
+    ],
+    "json": {
+      "enabled": true
+    }
+  }
+}

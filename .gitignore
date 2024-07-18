@@ -1,0 +1,38 @@
+# Logs and temp
+logs
+*.log
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# npm runtime config
+.npmrc
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Dot files and folders
+.env
+
+# IDE and editors
+.idea
+.vscode
+
+# Mac system file
+.DS_Store
+
+# Cypress
+cypress/videos
+cypress/screenshots
+cypress/downloads

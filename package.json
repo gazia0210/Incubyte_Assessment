@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cypress:e2e:open": "cypress open",
+    "cypress:e2e:run": "cypress run"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.1.0",
